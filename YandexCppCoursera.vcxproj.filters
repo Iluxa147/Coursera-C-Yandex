@@ -13,18 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\White">
+      <UniqueIdentifier>{0599e628-70ca-4886-808e-e231f01a6f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\White">
+      <UniqueIdentifier>{4353ec43-ec18-416b-8221-823e346c56a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Equation.cpp">
+      <Filter>Source Files\White</Filter>
+    </ClCompile>
+    <ClCompile Include="Factorial.cpp">
+      <Filter>Source Files\White</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrom.cpp">
+      <Filter>Source Files\White</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files\White</Filter>
+    </ClCompile>
+    <ClCompile Include="CVect.cpp">
+      <Filter>Source Files\White</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Equation.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\White</Filter>
+    </ClInclude>
+    <ClInclude Include="Factorial.h">
+      <Filter>Header Files\White</Filter>
+    </ClInclude>
+    <ClInclude Include="Palindrom.h">
+      <Filter>Header Files\White</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files\White</Filter>
+    </ClInclude>
+    <ClInclude Include="CVect.h">
+      <Filter>Header Files\White</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueV.h">
+      <Filter>Header Files\White</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
